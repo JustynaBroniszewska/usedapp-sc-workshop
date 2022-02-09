@@ -16,7 +16,7 @@
     "prebuild": "yarn clean",
     "build": "waffle .waffle.json",
     "test": "mocha",
-    "start": "ts-node playground/deploy.ts"
+    "start": "ts-node start.ts"
   },
   "devDependencies": {
     "@resolver-engine/imports-fs": "^0.3.3",
